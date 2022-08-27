@@ -1,0 +1,14 @@
+Azure Pipelines
+
+=============== Docker ===============
+
+ir al proyecto
+funct init --docker (Crea archivo docker)
+
+type Dockerfile (Ver el archivo de docker)
+
+docekr build .____folder___ (Crear la imagen con nuestra funcion)
+
+docker tag __id imagen__ ___nuevo nombre___:latest
+
+docker run -p _puerto_

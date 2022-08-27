@@ -1,0 +1,21 @@
+Comandos
+	az (Verificar que este instalado azure cli)
+	az --version (Ver la version instalada en el host)
+
+	az login (Authenticate azure account)
+
+========== CREATE THE 1ST FUNCTION APP ==========
+az functionapp create --gruporecursos --name (ponle nombre a la function) --storage-account (Nombre de la azure function) --consumption-plan-location southcentralus <= server
+
+az function list --resource-group (grupo de recursos) --output table (Ver las funtions en el grupo de recursos)
+
+entrar a la ubicacion de la function en el host
+
+type (Function) VER FICHERO
+
+funct azure funtionapp pubhish afdeployment (Subir a produccion la app)
+
+Agregar parametros de coneccion
+az funtionapp config appsettings set --resource-group ______ --name ______ --settings conection _____________
+
+WE DO IT!
